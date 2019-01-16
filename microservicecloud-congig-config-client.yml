@@ -7,7 +7,7 @@ spring:
 spring:
   profiles: dev #开发环境
   application:
-    name: microservicecloud-config-client
+    name: microservicecloud-congig-config-client
 eureka:
   client:
     service-url:
@@ -16,7 +16,7 @@ eureka:
 spring:
   profiles: test #开发环境
   application:
-    name: microservicecloud-config-client
+    name: microservicecloud-congig-config-client
 eureka:
   client:
     service-url:
