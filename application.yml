@@ -11,4 +11,8 @@ spring:
 spring:
   profiles: test #测试环境
   application:
+<<<<<<< HEAD
     name: microservicecloud-congig-test
+=======
+    name: microservicecloud-congig-test
+>>>>>>> 4502088f7dddf427fddc7a6783d59f8f22135c5c
