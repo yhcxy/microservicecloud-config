@@ -12,7 +12,7 @@ eureka:
   client:
     service-url:
       defaultZone:  http://eureka-dev.com:7001/eureka/
-      register-with-eureka: true
+      register-with-eureka: false
       fetch-registry: false
 ---
 spring:
@@ -23,5 +23,5 @@ eureka:
   client:
     service-url:
       defaultZone:  http://eureka-test.com:7001/eureka/
-      register-with-eureka: true
+      register-with-eureka: false
       fetch-registry: false
